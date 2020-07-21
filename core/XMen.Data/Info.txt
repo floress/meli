@@ -1,0 +1,3 @@
+﻿cloud_sql_proxy_x64.exe -instances=melitest-283421:us-central1:meli=tcp:5432
+
+CREATE UNLOGGED TABLE mutants (id bigint, dna text, isMutant int, PRIMARY KEY (id));
